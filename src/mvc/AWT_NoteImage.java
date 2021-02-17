@@ -1,5 +1,6 @@
 package mvc;
 
+import java.awt.Button;
 import java.awt.Checkbox;
 import java.awt.CheckboxGroup;
 import java.awt.FlowLayout;
@@ -8,7 +9,7 @@ import java.awt.event.ItemListener;
 import java.util.Observable;
 import java.util.Observer;
 
-public class AWT_NoteImage extends Panel implements Observer {
+public class AWT_NoteImage extends Button implements Observer {
 	
 	Checkbox[] étoiles = new Checkbox[5];
 	
