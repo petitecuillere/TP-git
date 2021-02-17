@@ -6,11 +6,12 @@ public class Model extends Observable{
 	Ligne solution;
 	Ligne tentative;
 	int Nbrtentative;
+	int [] couleurEntree;
 	public Model() 
 	{
 		Nbrtentative= 0;
 		solution =new Ligne(numCouleur(ale(8)),numCouleur(ale(8)),numCouleur(ale(8)),numCouleur(ale(8)));
-		
+		couleurEntree =new int[] {0,0,0,0};
 	}
 	
 	public int ale(int n) {
@@ -35,5 +36,27 @@ public class Model extends Observable{
 		
 		}
 	}
+	
+	public void changerC(int x,int val){
+		
+		couleurEntree[x]=val;
+		
+	}
+	
+	public boolean validerLigne() 
+	{
+		tentative= new Ligne(numCouleur(couleurEntree[0]),numCouleur(couleurEntree[1]),numCouleur(couleurEntree[2]),numCouleur(couleurEntree[3])) ;
+		
+		return solution.identique(tentative);
+	}
+	
+	public boolean nbrCBP() 
+	{
+		
+		
+		return solution.identique(tentative);
+	}
+	
+	
 	
 }

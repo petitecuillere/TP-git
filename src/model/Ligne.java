@@ -1,8 +1,10 @@
 package model;
 
+import java.io.Serializable;
+
 public class Ligne {
 
-	public enum couleur {
+	public enum couleur  {
 		   ROUGE, JAUNE, VERT, BLEU, BLANC, NOIR, ROSE,CYAN;
 		}
 	couleur[] point;

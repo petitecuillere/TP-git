@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_275" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele0">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele0"/>
+      <string>tigre</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele0"/>
+      <string>images/tigre.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele1">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele1"/>
+      <string>sport</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele1"/>
+      <string>images/sport.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele2">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele2"/>
+      <string>personnes</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele2"/>
+      <string>images/personnes.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele3">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele3"/>
+      <string>espace</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele3"/>
+      <string>images/espace.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele4">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele4"/>
+      <string>gaudi</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele4"/>
+      <string>images/gaudi.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele5">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele5"/>
+      <string>bretagne</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele5"/>
+      <string>images/bretagne.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele6">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele6"/>
+      <string>lucane</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele6"/>
+      <string>images/lucane.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele7">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele7"/>
+      <string>aucune</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele7"/>
+      <string>images/aucune.png</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele8">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele8"/>
+      <string>cellules</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele8"/>
+      <string>images/cellules.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="mvc.ImageModele" id="ImageModele9">
+    <void class="mvc.ImageModele" method="getField">
+     <string>id</string>
+     <void method="set">
+      <object idref="ImageModele9"/>
+      <string>paris</string>
+     </void>
+    </void>
+    <void class="mvc.ImageModele" method="getField">
+     <string>chemin</string>
+     <void method="set">
+      <object idref="ImageModele9"/>
+      <string>images/paris.jpg</string>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
